@@ -5,6 +5,7 @@
 - [Team Members](#team-members)
 - [Project Description](#project-description)
 - [Project Goals](#project-goals)
+- [Website Redesign Samples](#website-redesign-samples)
 
 # Team Members:
 ```
@@ -30,3 +31,5 @@ human-computer interaction, user experience, and emotional design.
 - Write informative text content; catch error conditions and guide users accordingly.
 - Experiment with design and interaction patterns for pleasing user experience.
 - Engage in agile, iterative web design and development within a team-based work-flow on GitHub, via pull requests and code reviews.
+
+# Website Redesign Samples
