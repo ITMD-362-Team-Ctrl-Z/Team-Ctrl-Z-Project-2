@@ -105,15 +105,30 @@ main div h1 {
 /* FOOTER SECTION */
 footer {
     position: fixed;
-    bottom: 50px;
+    bottom: 150px;
     left: 0;
     right: 0;
     height: 5%;
 }
 
+#bottom_nav_isud {
+    text-align: center;
+    font-family: Mont-Extra-Bold, serif;
+    font-size: var(--step-up-two-half);
+}
+
+#bottom_nav_icon_links {
+    text-align: center;
+}
+
 #bottom_nav_icon_links img {
+    margin-top: 15px;
     width: 10%;
-    height: 10%
+    height: 10%;
+}
+
+#fb {
+    padding-right: 50px;
 }
 
 /*  =============
