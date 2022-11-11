@@ -52,7 +52,7 @@
 
 #top_nav_content {
     font-family: Mont-Extra-Bold, serif;
-    font-size: var(--step-up-two);
+    font-size: var(--step-up-two-half);
 }
 
 #top_nav_ISUD_logo {
@@ -69,7 +69,7 @@ main {
 main div h1 {
     text-align: center;
     font-family: Hind-Bold, serif;
-    font-size: var(--step-up-two);
+    font-size: var(--step-up-two-half);
 }
 
 #home_banner_image img {
@@ -84,7 +84,10 @@ main div h1 {
 }
 
 .spotlight_event {
+    font-family: Hind-Bold, serif;
+    font-size: var(--step-up-two);
     text-align: center;
+    margin: auto;
 }
 
 #spotlight_1 {
