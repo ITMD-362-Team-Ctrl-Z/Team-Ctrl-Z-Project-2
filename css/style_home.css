@@ -2,7 +2,10 @@
     GOLDEN DITONIC MODULAR SCALE
     ============================ */
 :root {
-    --step-up-two-half: 3.330em; /* Max Header Size */
+    --step-up-four: 6.854em;
+    --step-up-three-half: 5.388em;
+    --step-up-three: 4.236em;
+    --step-up-two-half: 3.330em;
     --step-up-two: 2.620em;
     --step-up-one-half: 2.058em;
     --step-up-one: 1.618em;
@@ -22,3 +25,40 @@
 /*  ==============
     GENERAL DESIGN
     ============== */
+
+/* HEADER SECTION */
+header {
+    background-color: #5995ED;
+    margin: auto;
+    text-align: center;
+}
+
+#top_nav_ISUD_logo {
+    width: 20%;
+    height: 20%;
+}
+
+/* BODY SECTION */
+body {
+
+}
+
+/* FOOTER SECTION */
+footer {
+    background-color: #5995ED;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20%;
+}
+
+#bottom_nav_icon_links img {
+    width: 20%;
+    height: 20%
+}
+
+/*  =============
+    MEDIA QUERIES
+    ============= */
+
