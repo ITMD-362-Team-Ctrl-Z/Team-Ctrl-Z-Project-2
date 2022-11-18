@@ -1,7 +1,5 @@
 /* BODY SECTION */
 main {
-    margin-top: 22%;
-    margin-bottom: 125px;
 }
 
 main div h1 {
@@ -18,8 +16,9 @@ main div h1 {
 }
 
 #home_isud_spotlight { /* Div containing rows */
-    column-count: 3;
+    column-count: 2;
     margin-top: 20px;
+    text-align: center;
 }
 
 .spotlight_event {
@@ -30,15 +29,22 @@ main div h1 {
 }
 
 #spotlight_1 {
-    width: 30%;
+    width: 49%;
+
+}
+
+#spotlight_1 img {
+    max-width: 250px;
+    max-height: 250px;
 }
 
 #spotlight_2 {
-    width: 30%;
+    width: 49%;
 }
 
-#spotlight_3 {
-    width: 30%;
+#spotlight_2 img {
+    max-width: 250px;
+    max-height: 250px;
 }
 
 /*  =============
