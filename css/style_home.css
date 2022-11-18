@@ -1,65 +1,3 @@
-/*  ============================
-    GOLDEN DITONIC MODULAR SCALE
-    ============================ */
-:root {
-    --step-up-four: 6.854em;
-    --step-up-three-half: 5.388em;
-    --step-up-three: 4.236em;
-    --step-up-two-half: 3.330em;
-    --step-up-two: 2.620em;
-    --step-up-one-half: 2.058em;
-    --step-up-one: 1.618em;
-    --step-up-half: 1.272em;
-    /* Origin Baseline: 1em */
-    --step-down-half: 0.786em;
-    --step-down-one: 0.618em;
-    --step-down-one-half: 0.486em;
-    --step-down-two: 0.382em;
-    --step-down-two-half: 0.300em;
-}
-
-* { /* Make all elements border-box sizing */
-    box-sizing: border-box;
-}
-
-@font-face { /* Nav bar font */
-    font-family: Mont-Extra-Bold;
-    src: url("../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
-}
-
-@font-face { /* Body header font */
-    font-family: Hind-Bold;
-    src: url("../assets/fonts/Hind/Hind-Bold.ttf");
-}
-
-/*  ==============
-    GENERAL DESIGN
-    ============== */
-
-/* HEADER SECTION */
-#top_nav_container {
-    text-align: center;
-    overflow: hidden;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    background-color: #5995ED;
-}
-
-#top_nav_content:visited {
-    color: white;
-}
-
-#top_nav_content {
-    font-family: Mont-Extra-Bold, serif;
-    font-size: var(--step-up-two-half);
-}
-
-#top_nav_ISUD_logo {
-    width: 15%;
-    height: 15%;
-}
-
 /* BODY SECTION */
 main {
     margin-top: 22%;
@@ -81,6 +19,7 @@ main div h1 {
 
 #home_isud_spotlight { /* Div containing rows */
     column-count: 3;
+    margin-top: 20px;
 }
 
 .spotlight_event {
@@ -102,36 +41,23 @@ main div h1 {
     width: 30%;
 }
 
-/* FOOTER SECTION */
-footer {
-    position: fixed;
-    bottom: 150px;
-    left: 0;
-    right: 0;
-    height: 5%;
-}
-
-#bottom_nav_isud {
-    text-align: center;
-    font-family: Mont-Extra-Bold, serif;
-    font-size: var(--step-up-two-half);
-}
-
-#bottom_nav_icon_links {
-    text-align: center;
-}
-
-#bottom_nav_icon_links img {
-    margin-top: 15px;
-    width: 10%;
-    height: 10%;
-}
-
-#fb {
-    padding-right: 50px;
-}
-
 /*  =============
     MEDIA QUERIES
     ============= */
+
+@media screen and (min-width: 360px) {
+
+}
+
+@media screen and (min-width: 428px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}
 
