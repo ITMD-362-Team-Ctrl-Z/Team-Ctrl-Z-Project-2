@@ -2,7 +2,10 @@
     GOLDEN DITONIC MODULAR SCALE
     ============================ */
 :root {
-    --step-up-two-half: 3.330em; /* Max Header Size */
+    --step-up-four: 6.854em;
+    --step-up-three-half: 5.388em;
+    --step-up-three: 4.236em;
+    --step-up-two-half: 3.330em;
     --step-up-two: 2.620em;
     --step-up-one-half: 2.058em;
     --step-up-one: 1.618em;
@@ -19,6 +22,76 @@
     box-sizing: border-box;
 }
 
+@font-face { /* Nav bar font */
+    font-family: Mont-Extra-Bold;
+    src: url("../assets/fonts/Montserrat/static/Montserrat-ExtraBold.ttf");
+}
+
+@font-face { /* Body header font */
+    font-family: Hind-Bold;
+    src: url("../assets/fonts/Hind/Hind-Bold.ttf");
+}
+
 /*  ==============
     GENERAL DESIGN
     ============== */
+.active {
+    color: #e7e6f7;
+}
+
+/* HEADER NAV SECTION */
+header {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #5995ED;
+}
+
+header a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+
+header:visited {
+    color: white;
+}
+
+/* FOOTER NAV SECTION */
+
+footer {
+    text-align: center;
+    position: relative;
+    background-color: #5995ED;
+}
+footer a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+}
+/* HEADER / FOOTER CHANGES */
+.nav_container #site_name {
+    font-family: Mont-Extra-Bold, serif;
+    font-size: var(--step-up-half);
+}
+
+.nav_container {
+    font-family: Mont-Extra-Bold, serif;
+    font-size: var(--step-up-two-half);
+}
+
+.nav_container a:hover {
+    background-color: #e08d79;
+    color: black;
+}
+
+.nav_container #site_name:hover {
+    background-color: #5995ED;
+    color: white;
+}
