@@ -40,21 +40,10 @@
 }
 
 /* HEADER NAV SECTION */
-header {
-    text-align: center;
-    overflow: hidden;
-    position: relative;
-    top: 0;
-    width: 100%;
-    background-color: #5995ED;
-}
 
-header a {
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    display: block;
+#top_nav_logo\+name img {
+    width: auto;
+    max-height: 150px;
 }
 
 header:visited {
@@ -64,9 +53,11 @@ header:visited {
 /* FOOTER NAV SECTION */
 
 footer {
+    bottom: 0;
     text-align: center;
-    position: relative;
+    position: fixed;
     background-color: #5995ED;
+    width: 100%;
 }
 footer a {
     color: white;
@@ -82,8 +73,23 @@ footer a {
 }
 
 .nav_container {
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: #5995ED;
+
     font-family: Mont-Extra-Bold, serif;
     font-size: var(--step-up-two-half);
+}
+
+.nav_container a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
 }
 
 .nav_container a:hover {
