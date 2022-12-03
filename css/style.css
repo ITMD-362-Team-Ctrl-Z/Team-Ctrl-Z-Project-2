@@ -104,6 +104,25 @@ footer a {
     color: white;
 }
 
+.nav_content {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_content ul li {
+    float: left;
+}
+
+.nav_content ul li {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
 /*
     ===== HOME / INDEX PAGE STYLING =====
  */
