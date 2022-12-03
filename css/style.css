@@ -198,6 +198,23 @@ footer a {
     clear: both;
 }
 
+h2 {
+    font-size: 5rem;
+    text-transform: capitalize;
+    text-shadow: 1px 1px 1px red, 2px 2px 1px red;
+    text-align: center;
+    letter-spacing: 2px;
+  }
+  
+  #about {
+    font-size: 1rem;
+    color: rgb(255, 0, 0);
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+  }
+  
+
 /*  =============
     MEDIA QUERIES
     ============= */
@@ -218,6 +235,4 @@ footer a {
 
 }
 
-#about {
-    
-}
+
