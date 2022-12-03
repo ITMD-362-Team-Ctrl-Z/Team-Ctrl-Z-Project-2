@@ -35,6 +35,7 @@
 /*  ==============
     GENERAL DESIGN
     ============== */
+
 .active {
     color: #e7e6f7;
 }
@@ -63,12 +64,13 @@ footer a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: var(--step-down-one);
     display: block;
 }
+
 /* HEADER / FOOTER CHANGES */
 .nav_container #site_name {
-    font-family: Mont-Extra-Bold, serif;
+    font-family: Mont-Extra-Bold, "Arial Black", serif;
     font-size: var(--step-up-half);
 }
 
@@ -80,15 +82,15 @@ footer a {
     width: 100%;
     background-color: #5995ED;
 
-    font-family: Mont-Extra-Bold, serif;
-    font-size: var(--step-up-two-half);
+    font-family: Mont-Extra-Bold, "Arial Black", serif;
+    font-size: var(--step-up-two);
 }
 
 .nav_container a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: var(--step-down-one);
     display: block;
 }
 
@@ -102,34 +104,116 @@ footer a {
     color: white;
 }
 
-/* TWO CONTAINERS IN ABOUT PAGE */
+.nav_content {
+    text-align: center;
+}
 
-* {
-    box-sizing: border-box;
-  }
-  
-  /* Create two equal columns that floats next to each other */
-  .column {
+.nav_content ul {
+    display: inline-block;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.nav_content ul li {
+    float: left;
+}
+
+.nav_content ul li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/*
+    ===== HOME / INDEX PAGE STYLING =====
+ */
+
+#index_main div h1 {
+    text-align: center;
+    font-family: Hind-Bold, "Arial Black", serif;
+    font-size: var(--step-up-two-half);
+}
+
+#home_banner_image img {
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    border-radius: 5%;
+}
+
+#home_isud_spotlight { /* Div containing rows */
+    column-count: 2;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.spotlight_event {
+    font-family: Hind-Bold, "Arial Black", serif;
+    font-size: var(--step-up-two);
+    text-align: center;
+    margin: auto;
+}
+
+#spotlight_1 {
+    width: 49%;
+
+}
+
+#spotlight_1 img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+#spotlight_2 {
+    width: 49%;
+}
+
+#spotlight_2 img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+
+/*
+    ===== ABOUT US STYLING =====
+ */
+
+/* TWO CONTAINERS IN ABOUT PAGE */
+/* Create two equal columns that floats next to each other */
+.column {
     float: left;
     width: 50%;
     padding: 10px;
     height: 400px;
-  }
-  
-  /* Clear floats after the columns */
-  .row:after {
+}
+
+/* Clear floats after the columns */
+.row:after {
     content: "";
     display: table;
     clear: both;
-  }
+}
 
-  /* MAKE NAV BAR HORIZONTAL */
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+/*  =============
+    MEDIA QUERIES
+    ============= */
 
-  li {
-    display: inline;
-  }
+@media screen and (min-width: 360px) {
+
+}
+
+@media screen and (min-width: 428px) {
+
+}
+
+@media screen and (min-width: 768px) {
+
+}
+
+@media screen and (min-width: 1280px) {
+
+}

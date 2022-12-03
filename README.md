@@ -6,6 +6,7 @@
 - [Project Description](#project-description)
 - [Project Goals](#project-goals)
 - [Website Redesign Samples](#website-redesign-samples)
+- [Resources Used](#resources-used)
 
 # Team Members:
 ```
@@ -33,3 +34,5 @@ human-computer interaction, user experience, and emotional design.
 - Engage in agile, iterative web design and development within a team-based work-flow on GitHub, via pull requests and code reviews.
 
 # Website Redesign Samples
+
+# Resources Used
