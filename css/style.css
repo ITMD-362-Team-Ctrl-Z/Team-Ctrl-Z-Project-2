@@ -64,13 +64,13 @@ footer a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: var(--step-down-one);
     display: block;
 }
 
 /* HEADER / FOOTER CHANGES */
 .nav_container #site_name {
-    font-family: Mont-Extra-Bold, serif;
+    font-family: Mont-Extra-Bold, "Arial Black", serif;
     font-size: var(--step-up-half);
 }
 
@@ -82,7 +82,7 @@ footer a {
     width: 100%;
     background-color: #5995ED;
 
-    font-family: Mont-Extra-Bold, serif;
+    font-family: Mont-Extra-Bold, "Arial Black", serif;
     font-size: var(--step-up-two);
 }
 
@@ -134,7 +134,7 @@ footer a {
 
 #index_main div h1 {
     text-align: center;
-    font-family: Hind-Bold, serif;
+    font-family: Hind-Bold, "Arial Black", serif;
     font-size: var(--step-up-two-half);
 }
 
@@ -152,7 +152,7 @@ footer a {
 }
 
 .spotlight_event {
-    font-family: Hind-Bold, serif;
+    font-family: Hind-Bold, "Arial Black", serif;
     font-size: var(--step-up-two);
     text-align: center;
     margin: auto;
