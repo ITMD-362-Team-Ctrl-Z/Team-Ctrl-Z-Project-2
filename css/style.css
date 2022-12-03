@@ -83,14 +83,14 @@ footer a {
     background-color: #5995ED;
 
     font-family: Mont-Extra-Bold, serif;
-    font-size: var(--step-up-two-half);
+    font-size: var(--step-up-two);
 }
 
 .nav_container a {
     color: white;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: var(--step-down-one);
     display: block;
 }
 
@@ -105,8 +105,13 @@ footer a {
 }
 
 .nav_content {
+    text-align: center;
+}
+
+.nav_content ul {
+    display: inline-block;
     list-style-type: none;
-    margin: 0;
+    margin: auto;
     padding: 0;
     overflow: hidden;
 }
@@ -115,8 +120,8 @@ footer a {
     float: left;
 }
 
-.nav_content ul li {
-    display: block;
+.nav_content ul li a {
+    display: inline-block;
     color: white;
     text-align: center;
     padding: 14px 16px;
